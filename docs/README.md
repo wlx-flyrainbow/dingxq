@@ -1,35 +1,14 @@
-# 丁新勤
-
-## Quick Start
-
-### Create a new post
-
-``` bash
-$ hexo new "Hello 丁新勤"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+---
+home: true
+heroImage: /mac_search.png
+actionText: Get Started →
+actionLink: /about
+features:
+- title: 简明优先
+  details: 对以 markdown 为中心的项目结构，做最简化的配置，帮助你专注于创作。
+- title: Vue 驱动
+  details: 享用 Vue + webpack 开发环境，在 markdown 中使用 Vue 组件，并通过 Vue 开发自定义主题。
+- title: 性能高效
+  details: VuePress 将每个页面生成为预渲染的静态 HTML，每个页面加载之后，然后作为单页面应用程序(SPA)运行。
+footer: Copyright ©2018 Powered by VuePress 京ICP备16061905号-1  
+---
